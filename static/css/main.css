@@ -15,28 +15,22 @@
 }
 
 .top-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;  /* 内容对齐到底部 */
-    align-items: center;        /* 水平居中对齐 */
-    padding-bottom: 2rem;       /* 可调节的底部间距 */
     position: relative;
+    padding: 0;  /* 可选：不需要额外 padding 时可去掉 */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 50vh;  /* 改为 min-height 确保足够的高度 */
+    height: calc(100vw * 9 / 16); /* 设置16:9高度 */
+}
+
+
+.top-section h2 {
+    font-weight: 400;
 }
 
 .top-section .top-section-content {
     position: relative;
     z-index: 1;
-    text-align: center;  /* 可选：让文字水平居中 */
-    padding-bottom: 1rem; /* 可选：增加底部间距 */
-}
-
-.top-section h2 {
-    font-weight: 400;
-    color: white;  /* 可选：确保文字颜色与背景对比明显 */
 }
 
 .top-section:before {
