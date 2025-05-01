@@ -24,13 +24,13 @@
 } */
 
 .top-section-content {
-    position: relative;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-bottom: 2rem;
     z-index: 1;
-    height: 100%;               /* 填满整个背景图区域 */
-    display: flex;
-    align-items: flex-end;      /* 垂直底部对齐 */
-    justify-content: center;    /* 水平居中（可选） */
-    padding-bottom: 2rem;       /* 距离底部一些空间 */
+    text-align: center;
 }
 
 .top-section h2 {
