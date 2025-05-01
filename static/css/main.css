@@ -28,20 +28,11 @@
     font-weight: 400;
 }
 
-/* .top-section .top-section-content {
+.top-section .top-section-content {
     position: relative;
     z-index: 1;
-} */
-
-.top-section .top-section-content {
-    position: absolute;  /* 相对于 .top-section */
-    bottom: 0;           /* 贴近底部 */
-    left: 0;
-    width: 100%;
-    z-index: 1;
-    padding-bottom: 2rem;  /* 你想留出的底部间距，可以调 */
-    text-align: center;    /* 居中显示内容，可选 */
 }
+
 
 .top-section:before {
     content: "";
