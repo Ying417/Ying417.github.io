@@ -15,13 +15,17 @@
 }
 
 .top-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* ⬅️ 让内容靠底部对齐 */
+    padding-bottom: 2rem;       /* ⬅️ 可调节的底部间距 */
     position: relative;
-    padding: 0;  /* 可选：不需要额外 padding 时可去掉 */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: calc(100vw * 9 / 16); /* 设置16:9高度 */
+    height: calc(100vw * 9 / 16);
 }
+
 
 
 .top-section h2 {
