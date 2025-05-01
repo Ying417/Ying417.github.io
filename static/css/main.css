@@ -14,15 +14,24 @@
     background-color: var(--h-title-color);
 }
 
-.top-section {
+/* .top-section {
     position: relative;
     padding: 0;  /* 可选：不需要额外 padding 时可去掉 */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: calc(100vw * 9 / 16); /* 设置16:9高度 */
-}
+} */
 
+.top-section-content {
+    position: relative;
+    z-index: 1;
+    height: 100%;               /* 填满整个背景图区域 */
+    display: flex;
+    align-items: flex-end;      /* 垂直底部对齐 */
+    justify-content: center;    /* 水平居中（可选） */
+    padding-bottom: 2rem;       /* 距离底部一些空间 */
+}
 
 .top-section h2 {
     font-weight: 400;
