@@ -14,32 +14,33 @@
     background-color: var(--h-title-color);
 }
 
-/* .top-section {
+.top-section {
     position: relative;
     padding: 0;  /* 可选：不需要额外 padding 时可去掉 */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: calc(100vw * 9 / 16); /* 设置16:9高度 */
-} */
-
-.top-section-content {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding-bottom: 2rem;
-    z-index: 1;
-    text-align: center;
 }
+
 
 .top-section h2 {
     font-weight: 400;
 }
 
-.top-section .top-section-content {
+/* .top-section .top-section-content {
     position: relative;
     z-index: 1;
+} */
+
+.top-section .top-section-content {
+    position: absolute;  /* 相对于 .top-section */
+    bottom: 0;           /* 贴近底部 */
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    padding-bottom: 2rem;  /* 你想留出的底部间距，可以调 */
+    text-align: center;    /* 居中显示内容，可选 */
 }
 
 .top-section:before {
