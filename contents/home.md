@@ -17,5 +17,9 @@ Master of Science in Microbiome in Health and Disease from King's College London
  
 
 #### Research Interests
-Deep Learning, Artificial Intelligence, LLMs(Large Language Models), Blockchain.
+Biofilm formation and regulation mechanisms
+
+Mucin-bacteria interactions in oral microenvironments
+
+Microbial diversity and community dynamics
 
